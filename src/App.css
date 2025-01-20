@@ -1,0 +1,127 @@
+.App{
+  display: flex;
+  align-items: center;
+  justify-content:start;
+  flex-direction: column;
+  width: 100%;
+  min-width: 450px;
+  padding: 30px;
+}
+
+
+h1{
+  font-weight: bold;
+  background: linear-gradient(to right, #b374eb, #bd86ed,#ac95ec, #7bc1fe, #41a5fd, #5eb4ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+.nav_bar{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 4px;
+}
+hr{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-color: gray;
+}
+.tab_btn{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border:none;
+  font-size: 1rem;
+}
+.tab_btn span{
+  color: grey;
+}
+
+.selected{
+  /* border-bottom: 4px solid transparent;
+  border-image: linear-gradient(to right, pink, rgb(96, 96, 232)) 1; */
+  box-shadow: 0 4px 0 0  rgb(97, 147, 240);
+}
+.card{
+  background-color: #181C31;
+  width: 100%;
+  border-radius: 10px;
+
+}
+.card-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card-component{
+  margin: 20px;
+}
+.card p{
+  font-size:1.2rem;
+  color: rgb(226, 222, 222);
+}
+.card-btn{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 35px;
+  width: 80px;
+  border-radius: 8px;
+}
+.do_btn{
+  background-color: #609DE9;
+  color:black;
+
+}
+.do_btn:hover{
+  background-color: #466DA4;
+}
+.card-btn.do_btn:disabled {
+  background-color: #466DA4;
+  color: black;
+  cursor: not-allowed;
+}
+.de_btn{
+  background-color: #1A2448;
+  margin-left: 20px;
+  color: #466DA4;
+}
+hr{
+  margin: 0;
+  padding: 0;
+}
+.input_container{
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  gap: 15px;
+}
+.input_container input{
+  background-color:#181C31;
+  border: none;
+  outline: none;
+  height: 40px;
+  border-radius: 8px;
+  width: 85%;
+  padding-left: 20px;
+}
+
+.input_container  button{
+  background-color: #181C31;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  box-shadow: 1px 1px 4px rgb(99, 98, 98);
+}
+.input_container  button:hover{
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 6px rgb(99, 98, 98);
+
+}
